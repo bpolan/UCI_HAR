@@ -5,10 +5,10 @@ Date: 07-16-2019
 Contains UCI_HAR assignment stuff.
 
 ## Purpose
-The purpose of UCI_HAR_data_stuff.R is to take data from https://www.dropbox.com/s/lfsbhwy8elgjo15/UCI_HAR_Dataset.zip?dl=0 and clean it and transform it. Will produce a tidy data set called tidy_UCI_HAR.txt.
+The purpose of run_assignment.R is to take data from https://www.dropbox.com/s/lfsbhwy8elgjo15/UCI_HAR_Dataset.zip?dl=0 and clean it and transform it. Will produce a tidy data set called tidy_UCI_HAR.txt.
 
 ## Data info
-The UCI_HAR data contains accelerometer data from 30 different subjects.
+The UCI_HAR data contains accelerometer and gyroscope data from 30 different subjects.
 
 A detailed description of the data set and its features can be found in the  UCI_HAR_README.txt and features_info.txt files.
 
@@ -23,7 +23,7 @@ UCI_HAR_data_stuff.R does the following:
 
 ## How to use
 - Download the data from the link above.
-- Download the UCI_HAR_assignment_stuff.R file and save it in the same folder as the test and train folders (should also include features.txt and activity_labels.txt).
+- Download the run_analysis.R file and save it in the same folder as the test and train folders (should also include features.txt and activity_labels.txt).
 - Run the script (Make sure dplyr is installed)
 - tidy_UCI_HAR.txt should be created in the working directory.
 
